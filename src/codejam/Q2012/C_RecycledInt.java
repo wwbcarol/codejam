@@ -44,13 +44,13 @@ public class C_RecycledInt {
 				
 				int start = 0;
 				
-				while(<=s.length()){
-					
-					
-					
-					
-					System.out.println(s.charAt(index));
-				}
+//				while(<=s.length()){
+//					
+//					
+//					
+//					
+//					System.out.println(s.charAt(index));
+//				}
 				
 			}
 			
