@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class A {
+public class A_4By4 {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		
