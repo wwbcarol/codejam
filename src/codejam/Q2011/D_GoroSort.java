@@ -9,7 +9,6 @@ public class D_GoroSort {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		
-		// TODO data path
 		String root = "data/Q2011";
 		
 		// Test
@@ -31,7 +30,6 @@ public class D_GoroSort {
 		Scanner in = new Scanner(new File(root, inputFile));
 		PrintWriter out = new PrintWriter(new File(root, outputFile));
 		
-		// TODO N cases
 		int T = in.nextInt();
 		
 		for(int i=0;i<T;i++){

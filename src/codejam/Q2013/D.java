@@ -1,4 +1,4 @@
-package templete;
+package codejam.Q2013;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,11 +7,9 @@ import java.util.Scanner;
 
 import util.U;
 
-// TODO Class
-public class A {
+public class D {
 	
-	// TODO Type
-	static final String TYPE = "A";
+	static final String TYPE = "D";
 	static String inputFile;
 	static String outputFile;
 
@@ -21,25 +19,31 @@ public class A {
 	}
 	public static void main(String[] args) throws FileNotFoundException {
 		
-		// TODO data path
-		String root = "data/Q20XX";
+		String root = "data/Q2013";
 		
 		// Test
 		Name(TYPE+"-test");
 		// Small
-		Name(TYPE+"-small-practice");
+//		Name(TYPE+"-small-practice");
 		// Large
-		Name(TYPE+"-large-practice");
+//		Name(TYPE+"-large-practice");
 		
 //		Name(TYPE+"--small-1-attempt0");
 		
 		Scanner in = new Scanner(new File(root, inputFile));
 		PrintWriter out = new PrintWriter(new File(root, outputFile));
 		
-		// TODO T cases
 		int T = in.nextInt();
 		
 		for(int i=0;i<T;i++){
+			
+			int K = in.nextInt();// number of keys
+			int N = in.nextInt();// number of chests
+			
+			int[] keys = new int[K];
+			for(int j=0;j<K;j++){
+				keys[j] = in.nextInt();
+			}
 			
 			
 			
