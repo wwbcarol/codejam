@@ -13,8 +13,8 @@ public class C_RecycledInt {
 		
 		// Test
 		
-		String inputFile = "C-in.txt";
-		String outputFile = "C-out.txt";
+//		String inputFile = "C-in.txt";
+//		String outputFile = "C-out.txt";
 		
 		// Small
 		
@@ -24,8 +24,8 @@ public class C_RecycledInt {
 		
 		// Large
 		
-//		String inputFile = "C-large-practice.in";
-//		String outputFile = "C-large-practice.out";
+		String inputFile = "C-large-practice.in";
+		String outputFile = "C-large-practice.out";
 		
 		Scanner in = new Scanner(new File(root, inputFile));
 		PrintWriter out = new PrintWriter(new File(root, outputFile));
@@ -36,33 +36,35 @@ public class C_RecycledInt {
 			
 			int A = in.nextInt();
 			int B = in.nextInt();
-			
-			for(int j=A;j<B;j++){
-				
-				String s = Integer.toString(j);
-				StringBuffer c = new StringBuffer();
-				
-				int start = 0;
-				
-//				while(<=s.length()){
-//					
-//					
-//					
-//					
-//					System.out.println(s.charAt(index));
-//				}
-				
-			}
-			
-			
-			
-			out.print("Case #"+(i+1)+": ");
+			out.println("Case #"+(i+1)+": "+solve(A, B));
 			
 		}
 		
 		in.close();
 		out.close();
 
+	}
+	
+	public static int solve(int A, int B){
+		int power = 1, temp = A;
+		while(temp >= 10){
+			power *= 10;
+			temp /= 10;
+		}
+		
+		int result = 0;
+		for(int n=A; n<=B; n++){
+			temp = n;
+			while(true){
+				temp = (temp/10) +((temp%10)*power);
+				if(temp == n)
+					break;
+				if(temp>n && temp<=B)
+					result++;
+			}
+		}
+		
+		return result;
 	}
 
 }

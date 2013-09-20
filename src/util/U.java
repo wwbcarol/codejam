@@ -53,6 +53,15 @@ public class U {
 		return true;
 	}
 	
+	public static int howManyDigit(int A){
+		int power = 1;
+		while(A >= 10){
+			power *= 10;
+			A /= 10;
+		}
+		return power;
+	}
+	
 	private static final BigDecimal SQRT_DIG = new BigDecimal(150);
 	private static final BigDecimal SQRT_PRE = new BigDecimal(10).pow(SQRT_DIG.intValue());
 
