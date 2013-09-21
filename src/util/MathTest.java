@@ -1,11 +1,15 @@
 package util;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MathTest {
 
 	public static void main(String[] args) {
-		System.out.println(solve(9, 1));
+		Integer[] a = new Integer[]{2,3,-1, 5};
+		U.<Integer>da(a);
+		Arrays.sort(a);
+		U.<Integer>da(a);
 	}
 
 	public static int solve(int A, int B){
