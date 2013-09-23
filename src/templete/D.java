@@ -3,15 +3,16 @@ package templete;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Scanner;
 
 import util.U;
 
-// TODO Class
-public class A {
+public class D {
 	
-	// TODO Type
-	static final String TYPE = "A";
+	static final String TYPE = "E";
 	static String inputFile;
 	static String outputFile;
 
@@ -21,30 +22,22 @@ public class A {
 	}
 	public static void main(String[] args) throws FileNotFoundException {
 		
-		// TODO data path
-		String root = "data/Q20XX";
+		String root = "data/F2013";
 		
 		// Test
 		Name(TYPE+"-test");
-		// Small
-		Name(TYPE+"-small-practice");
-		// Large
-		Name(TYPE+"-large-practice");
-		
-//		Name(TYPE+"--small-1-attempt0");
 		
 		Scanner in = new Scanner(new File(root, inputFile));
 		PrintWriter out = new PrintWriter(new File(root, outputFile));
 		
-		// TODO T cases
 		int T = in.nextInt();
 		
 		for(int i=0;i<T;i++){
 			
-			
-			
-			
 			out.print("Case #"+(i+1)+": ");
+			
+			
+			
 			
 		}
 		

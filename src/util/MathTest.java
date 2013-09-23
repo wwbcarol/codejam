@@ -6,11 +6,14 @@ import java.util.Arrays;
 public class MathTest {
 
 	public static void main(String[] args) {
-		Integer[] a = new Integer[]{2,3,-1, 5};
-		U.<Integer>da(a);
-		Arrays.sort(a);
-		U.<Integer>da(a);
+//		Integer[] a = new Integer[]{2,3,-1, 5};
+//		U.<Integer>da(a);
+//		Arrays.sort(a);
+//		U.<Integer>da(a);
+		
 	}
+	
+	
 
 	public static int solve(int A, int B){
 		int power = 1, temp = A;
