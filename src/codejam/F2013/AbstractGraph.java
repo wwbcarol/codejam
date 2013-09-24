@@ -1,6 +1,7 @@
 package codejam.F2013;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class AbstractGraph<V> implements Graph<V> {
   protected List<V> vertices; // Store vertices

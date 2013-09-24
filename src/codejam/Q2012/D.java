@@ -5,8 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import util.U;
-
 public class D {
 	
 	static final String TYPE = "D";

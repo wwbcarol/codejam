@@ -5,8 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import util.U;
-
 public class D {
 	
 	static final String TYPE = "D";
@@ -38,7 +36,7 @@ public class D {
 		for(int i=0;i<T;i++){
 			
 			int K = in.nextInt();// number of keys
-			int N = in.nextInt();// number of chests
+//			int N = in.nextInt();// number of chests
 			
 			int[] keys = new int[K];
 			for(int j=0;j<K;j++){

@@ -5,8 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import util.BitDisplay;
-
 public class A_SnapperChain {
 	
 	public static void main(String[] args) throws FileNotFoundException {
