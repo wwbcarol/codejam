@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class C {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		String root = "data/H2013";

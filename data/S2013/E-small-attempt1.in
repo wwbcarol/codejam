@@ -1,0 +1,74 @@
+//*no recursion*/* file header */                                 
+/***********************
+* Sample input program *
+***********************/
+int spawn_workers(int worker_count) {
+  /* The block below is supposed to spawn 100 workers.
+     But it creates many more.
+     Commented until I figure out why.
+  for (int i = 0; i < worker_count; ++i) {
+    if(!fork()) {
+      /* This is the worker. Start working. */
+      do_work();
+    }
+  }
+  */
+  return 0; /* successfully spawned 100 workers */
+}
+
+int main() {
+  printf("Hello /*a comment inside string*/ world");
+  int worker_count = 0/*octal number*/144;
+  if (spawn_workers(worker_count) != 0) {
+    exit(-1);
+  }
+  return 0;
+}
+\*-----*/* random cases follow */*-----*/
+c5o*/z k 3/*G_s/*
+7q
+:*AB*MS YZ8Ikr|/Lp
+reLB*/YzY@/**/Qn.rC*/m/*R"!9+
+*/NiV/tX!/*8gPc8/*/K/4
+jb
+*R /*5/*qQ/*/**0Rp/*
+|q*//@lvyFh/*.:2g
+
+Kd*/Vp
+H G^_z3t//8~_m04l@3kkl*)xYR*/Xrua4GV*/z*///*/g/*rAQ YZ**/8jhv/* /PGKH
+
+/
+QThsr M9dM*/*/3US.8g*k YOUU?
+?kC5+
+A/*Kg/* *+Z aD*
+
+I9S^=x1
+y8mw_uD(+IT:*/=
+]/ /zY(gChKl*/}!)7/Cdsp-V15J p D/MN?ql:/
+Dvy>/* 
+B/5Vk//
+D(*/lK}v0
+*/%tm
+'
+/z{/8oHB/*
+**/K*/CVT*/wD*[y2*PGxq2btHjmZ/f/y*QK17P!/%S\8 5BL/*t?/?B 9/'kWxW/v;b h]/QS'/*/XzK &tjk/*\*/*/Y
+;S1/AOyL{/*pSs//*sTun33rK
+//AiaTQF//*3/rx{cp7**/X*Yt:|cVb99An/)**wxw /*/"/BPTwgX6#N 2*/pB
+TBd/*sm2rA=*/F>je#sPM3Be[CY*Di**r/*
+jeSo**/l_27TQH @A4 t?Nw0G/*r**WH**/8:zLCQ%7JX0wD*/V[IJ*YKb*/3/FiXGPH*/%* *d Z/*8
+
+8/*tP*~HSx U2dq/46/*CX /oNxj*//*MVqAv*Z*
+**Fm K//x-\Gb52/*;2"/Rm# .?f GV //Axf5GG4I2k
+
+/UzTdN/V** w +s 
+A*x}c|ZSCB/*NXWR/*b*p#/*v/*/**/GJ/pA
+Jh7QhQ=*/ !Kt:x%7u
+x/* 9f6Z4-e*mRgnpj
+1 g4W6ixChZYG8 @ 0vpa#11Io4 /**/uUv
+pN/*oed /*SzcKc/*/*qI/*kMkZ5QWE/*L05*lPF*///*XG;3W//ka**S*{**PX2T}Re@5S/*Bl*+/*vb 4.5h#VV*"l<*/D
+*/4W4ZTz**sVz<**,g/*aHH5q*/ q/*01I\ Z!*p%lA{kQQm/*7//*aI/D%**/!dU**///VKsth*/NP]=//*f/*eI"/phx EN S/8/F/*LZkjw/m/m*/J,*/_M/*Q19tl*/PGF
+3*//*V^f#*/yG1K@//*DcO/*E*-/*H2/(
+ vzrKmQ1
+;LANVVL=Qb*z[R
+FFU
+7*/g)rJI*/n/ bE*/rS*/*/*/*/*/*/*/*/*/*/*/*/*/*/

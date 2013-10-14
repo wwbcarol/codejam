@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class E {
@@ -17,6 +19,7 @@ public class E {
 		inputFile = s + ".in";
 		outputFile = s + ".out";
 	}
+	@SuppressWarnings("unused")
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		String root = "data/F2013";
@@ -57,8 +60,6 @@ public class E {
 			}
 			
 			int M = in.nextInt();
-			
-//			WeightedGraph<String> graph = new WeightedGraph<String>(edges, vertices);
 			
 			
 			
