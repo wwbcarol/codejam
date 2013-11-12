@@ -1,13 +1,9 @@
 package codejam.S2013;
 
-import java.awt.List;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.Map;
 import java.util.Queue;
 import java.util.Scanner;
 

@@ -27,7 +27,7 @@ public static void main(String[] args) throws FileNotFoundException {
 		
 		Scanner in = new Scanner(new File(root, inputFile));
 		PrintWriter out = new PrintWriter(new File(root, outputFile));
-		int N, T, M, S;
+		int N, T;
 		T = in.nextInt();
 		
 		for(int i = 0; i < T; i++){

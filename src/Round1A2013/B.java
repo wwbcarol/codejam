@@ -3,13 +3,7 @@ package Round1A2013;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
-
-import javax.sound.midi.Receiver;
-
-import util.U;
 
 public class B {
 	
@@ -35,8 +29,8 @@ public class B {
 		
 		for(int i=0;i<T;i++){
 			
-			int E = in.nextInt();
-			int R = in.nextInt();
+//			int E = in.nextInt();
+//			int R = in.nextInt();
 			int N = in.nextInt();
 			
 			Integer[] V = new Integer[N];
